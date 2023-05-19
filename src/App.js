@@ -14,9 +14,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/posts/:id" element={<Post />} />
-        <Route path="/categoria/:id/*" element={<Categoria />} />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Posts/:id" element={<Post />} />
+        <Route path="/Categoria/:id/*" element={<Categoria />} />
         <Route path="*" element={<Page404 />} />
 
       </Routes>
